@@ -1,0 +1,52 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: white;
+  background-color: black;
+  height: 80px !important;
+}
+.Logo > h2 {
+  margin-bottom: 0px;
+  margin-left: 0;
+}
+.Explore {
+  width: 35% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-around !important;
+  margin-left: 0 !important;
+}
+.Explore > h6:hover {
+  cursor: pointer;
+  color: gold;
+}
+.Logo {
+  margin-left: 30px !important;
+  flex: 1 !important;
+  display: flex;
+  align-items: center !important;
+  cursor: pointer;
+}
+span {
+  color: gold;
+}
+img {
+  height: 70px !important;
+  width: 80px !important;
+  /* cursor: pointer; */
+  margin-bottom: 5px !important;
+}
+.switch {
+  color: gold;
+}
+.switch:hover {
+  opacity: 0.7;
+}
+.NavBtn {
+  margin-right: 25px;
+  margin-left: 0px;
+}
+/* .Explore > h6 {
+  margin-left: 25px;
+} */

@@ -1,0 +1,65 @@
+.NavbarSignUp {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: white;
+  background-color: #C65D7B;
+  height: 80px !important;
+}
+.Logo > h2 {
+  margin-bottom: 0px;
+  margin-left: 0;
+}
+.Explore {
+  width: 35% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-around !important;
+  margin-left: 0 !important;
+}
+.Explore > h6:hover {
+  cursor: pointer;
+  color: black;
+}
+.Logo {
+  margin-left: 30px !important;
+  flex: 1 !important;
+  display: flex;
+  align-items: center !important;
+  cursor: pointer;
+}
+span {
+  color: black;
+}
+img {
+  height: 70px !important;
+  width: 80px !important;
+  /* cursor: pointer; */
+  margin-bottom: 5px !important;
+}
+.switch{
+  color: black;
+  margin-left: 15px;
+}
+.switch:hover {
+  opacity: 0.7;
+}
+h6:hover {
+  color: black;
+  cursor: pointer;
+}
+.NavBtn {
+  margin-right: 25px;
+  margin-left: 0px;
+}
+.Avatar:hover {
+  opacity: 0.8;
+}
+.NavbarSignUp > h6 {
+  margin-left: 25px;
+}
+.NavbarSignUp > a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}

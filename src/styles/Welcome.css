@@ -1,0 +1,46 @@
+/* .carousel {
+  width: 75% !important;
+  height: 300px;
+} */
+.Welcome {
+  /* flex: 1; */
+  display: flex;
+  justify-content: space-between;
+}
+.carousel.slide {
+  width: 750px !important;
+  margin-left: 50px;
+}
+.carousel-inner {
+  height: 215px;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+/* Welcome message */
+
+.welcomeMessage {
+  background-color: #F582A7;
+
+  width: 25%;
+  border-radius: 3%;
+  height: 215px;
+  margin-right: 72px;
+}
+.welcomeMessage > h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+.welcomeMessage > p {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: larger;
+}
+.btn {
+  margin-left: 27%;
+}
+
+
